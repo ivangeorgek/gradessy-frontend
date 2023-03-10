@@ -1,8 +1,11 @@
 import "./topbar.css";
+import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+
+
 
 export default function Topbar() {
     return (
@@ -17,9 +20,13 @@ export default function Topbar() {
                 </div>
             </div>
             <div className="topbarRight">
-                <div className="topbarLinks">
-                    <span className="topbarLink">Home</span>
-                    <span className="topbarLink">Timeline</span>
+                <div className="topbarSelect">
+                    <select class="dropdown">
+                        <option value="">Filter by...</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
                 </div>
                 <div className="topbarIcons">
                     <div className="topbarIconItem">

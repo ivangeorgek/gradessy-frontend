@@ -1,0 +1,52 @@
+.profileCard {
+    background: rgb(0, 113, 144);
+    background: linear-gradient(180deg, rgba(0, 113, 144, 1) 0%, rgba(2, 155, 144, 1) 100%);
+    margin: 1.5em;
+    padding: 1.5em;
+    border-radius: 1em;
+    text-align: center;
+    color: #482c8e;
+    position: relative;
+}
+
+.profileCardImg {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #0064d2;;
+    margin-top: -4em;
+    border-radius: 50%;
+    background: #eeaeca;;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.profileCardName {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.profileCardDesc {
+    color: white;
+    padding:0;
+    margin:0;
+    font-size: .9em;
+    line-height: 1.5em;
+}
+
+.profileCardButton {
+    color: aliceblue;
+    width: 50%;
+    height: 3em;
+    border-radius: 2em;
+    border: none;
+    margin: 0 auto;
+    margin-top: 1em;
+    font-weight: bold;
+}
